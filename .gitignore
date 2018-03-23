@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Source/AD.Core/obj/Debug
+/Source/AD.Data.Sql/obj/Debug
+/Source/.vs/AD/v15/sqlite3

@@ -19,7 +19,7 @@ namespace AD.Core.Repository
         Task<ConcurrentBag<T>> GetAllAsync();
         Task<ConcurrentBag<T>> GetByFilterAsync(Func<T, bool> predicate);
         Task<T> AddAsync(T obj);
-        Task DeleteAsync(T obj);
+        Task<bool> DeleteAsync(T obj);
         Task<T> UpdateAsync(T obj);
     }
 }
